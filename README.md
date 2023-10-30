@@ -5,7 +5,7 @@
 
 ## Introduction
 
-This is a simple guide to hosting client side web apps on github for free. This is a great way to host your web apps for free and also to learn about git and github.
+This is a simple guide to hosting client-side web apps on GitHub for free. This is a great way to host your web apps for free and also to learn about Git and GitHub. The template uses `shinylive` to build a WebAssembly/JavaScript version of the shiny app in `src`. GitHub Pages is used to host the web app. This process is all automatically handled by GitHub Actions every time the shiny app source code changes.
 
 ## Steps
 
@@ -23,7 +23,7 @@ Read and write permissions
 (Workflows have read and write permissions in the repository for all scopes.)
 ![](images/workflow-permissions.png)
 
-3. Clone the repository to your local machine.
+4. Clone the repository to your local machine.
 
 ```bash
 git clone <YOUR USERNAME>/<YOUR REPO>
@@ -33,9 +33,9 @@ Or use RStudio to clone the repository.
 
 `RStudio` > `New Project` > `Version Control` > `Git` > `Repository URL`: \<YOUR USERNAME>/\<YOUR REPO>
 
-4. Add your shiny app files to the `src` folder (You can use the example files to start with).
+5. Add your shiny app files to the `src` folder (You can use the example files to start with).
 
-5. Commit and push your changes to github.
+6. Commit and push your changes to github.
     
 ```bash
 git add .
@@ -43,11 +43,11 @@ git commit -m "Add shiny app files"
 git push
 ```
 
-6. Back in your repository (on github.com). Go to the `Actions` tab and you should see a workflow running. This workflow will build your shiny app and deploy it to the gh-pages branch. Wait for the Action to finish.
+7. Back in your repository (on github.com). Go to the `Actions` tab and you should see a workflow running. This workflow will build your shiny app and deploy it to the gh-pages branch. Wait for the Action to finish.
 
 > For details on what the workflow is doing see [build.yml](.github/workflows/build.yml)
 
-7. Go to settings and scroll down to the `Pages` section. Select Deploy from branch as the source and select the `gh-pages` as the branch and click save.
+8. Go to settings and scroll down to the `Pages` section. Select Deploy from branch as the source and select the `gh-pages` as the branch and click save.
 
 ![](images/pages.png)
 
