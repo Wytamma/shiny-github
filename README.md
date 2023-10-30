@@ -1,6 +1,6 @@
 ![](images/banner.png)
 
-# Host Client Side Shiny Apps On Github For Free
+# Host Client Side R Shiny Web Apps On Github For Free
 [![Build](https://github.com/Wytamma/shiny-github/actions/workflows/build.yml/badge.svg)](https://github.com/Wytamma/shiny-github/actions/workflows/build.yml)
 
 ## Introduction
