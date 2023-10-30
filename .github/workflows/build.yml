@@ -25,7 +25,7 @@ jobs:
             ${{ runner.os }}-r-
       
       - name: Install dependencies
-        run: Rscript -e 'install.packages("shinylive", type = "binary")'
+        run: Rscript -e 'install.packages("shinylive")'
       
       - name: Build Site
         run: Rscript -e 'shinylive::export("src", "site")'
