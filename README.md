@@ -57,7 +57,7 @@ The pages build and deployment action should start running. Once it's finished y
 
 ## Example
 
-Here is an example of a shiny app hosted on github pages: https://joshua-silver.shinyapps.io/iris/
+Here is an example of a shiny app hosted on github pages: http://blog.wytamma.com/shiny-github/
 
 ## FAQ
 > Why does is take so long to load?
