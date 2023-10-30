@@ -5,7 +5,7 @@
 
 ## Introduction
 
-This is a simple guide to hosting client-side web apps on GitHub for free. This is a great way to host your web apps for free and also to learn about Git and GitHub. The template uses `shinylive` to build a WebAssembly/JavaScript version of the shiny app in `src`. GitHub Pages is used to host the web app. This process is all automatically handled by GitHub Actions every time the shiny app source code changes.
+This is a simple guide to hosting client-side web apps on GitHub for free. This is a great way to host your web apps for free and also to learn about Git and GitHub. The template uses [`shinylive`](https://github.com/posit-dev/shinylive) to build a WebAssembly/JavaScript version of the shiny app in `src`. GitHub Pages is used to host the web app. This process is all automatically handled by GitHub Actions every time the shiny app source code changes.
 
 ## Steps
 
